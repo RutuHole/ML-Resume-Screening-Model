@@ -32,5 +32,5 @@ Upload resumes in PDF format and provide the job description. The system will ra
 
 Project Structure:                                
 Finalapp.py: Main Streamlit application                             
-Finalcode.py: Module for resume extraction and text processing                       
+Finalcode.ipynb: Module for resume extraction and text processing                       
 requirements.txt: List of required packages                      
