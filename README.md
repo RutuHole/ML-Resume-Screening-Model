@@ -17,15 +17,20 @@ Technologies Used:
 4)spaCy: For NLP tasks                    
 5)scikit-learn: For TF-IDF Vectorization and Cosine Similarity                   
 
-Installation:
+Installation:                
 1.Clone this repository:
-  git clone https://github.com/your-username/ai-resume-screening.git                  
-  [cd ai-resume-screening]()
-2.Install the required dependencies:
-  pip install -r requirements.txt
-3.Download the spaCy English model:
-  python -m spacy download en_core_web_sm
+  git clone https://github.com/your-username/ai-resume-screening.git                        
+  [cd ai-resume-screening]()                         
+2.Install the required dependencies:                      
+  [pip install -r requirements.txt]()                            
+3.Download the spaCy English model:                       
+  [python -m spacy download en_core_web_sm]()
 
 How to Run the Application:
- streamlit run finalapp.py
+streamlit run finalapp.py
 Upload resumes in PDF format and provide the job description. The system will rank the resumes based on relevance.
+
+Project Structure:
+Finalapp.py: Main Streamlit application                
+Finalcode.py: Module for resume extraction and text processing                   
+requirements.txt: List of required packages                      
