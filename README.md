@@ -19,5 +19,13 @@ Technologies Used
 
 Installation:
 1.Clone this repository:
-git clone https://github.com/your-username/ai-resume-screening.git
-cd ai-resume-screening
+  git clone https://github.com/your-username/ai-resume-screening.git
+  cd ai-resume-screening
+2.Install the required dependencies:
+  pip install -r requirements.txt
+3.Download the spaCy English model:
+  python -m spacy download en_core_web_sm
+
+How to Run the Application:
+ streamlit run finalapp.py
+Upload resumes in PDF format and provide the job description. The system will rank the resumes based on relevance.
